@@ -1,0 +1,21 @@
+﻿# JetBrains Rider...
+.idea
+
+# Terrafrom...
+.terraform
+*.tfstate*
+*.tfstate.backup
+*.tfvars
+terraform-provider*
+*.rkestate
+**/.terraform/*
+*.tfstate
+
+# AWS, EC2...
+*.pem
+*.pub
+
+# RKE, Kubernetes...
+kube_config.yaml
+
+*/cluster/*
